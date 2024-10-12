@@ -1,14 +1,14 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    
-    background-color: #f4f4f4;
+    padding: 0;
+    background-color: #fff;
 }
 
 header {
     background-color: black;
     color: white;
-    padding: 15px;
+    padding: 20px;
     display:flex ;
     align-items: center;
 }
@@ -39,5 +39,42 @@ nav ul li a {
 
 #head_one {
     margin: 20px 0;
-    text-align: center;
+    padding: 10px 0;
+    text-align: center; 
+   
 }
+
+#assemplecode {
+    background-color: #eceffa;
+   
+    border-radius: 5px;
+    
+    box-shadow: 0 5px 10px rgba(51, 170, 160, 0.1);
+    overflow-x: auto;
+    width: 60%;
+    font-size: 20px;
+    margin: 10px;
+    font-style: revert-layer;
+    
+    padding: 10px;
+}
+#ans1{
+    font-size: 25px;
+}
+
+#ans2{
+    padding: 10px;
+    margin: 10px;
+    font-size: 25px;
+    
+    
+    width: 60%;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    
+}
+
