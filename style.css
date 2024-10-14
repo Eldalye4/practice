@@ -95,7 +95,14 @@ footer {
 
 @media (max-width: 768px) {
     #assemplecode, #ans1, #ans2 {
-        width: 70%;
+        width: 65%;
         font-size: 1em; 
         padding: 15px
 }}
+@media (max-width: 1024px) {
+    #assemplecode, #ans1, #ans2 {
+        width: 70%;
+        font-size: 1em; 
+        padding: 15px
+    }
+}
