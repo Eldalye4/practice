@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #fff;
+    font-size: 16px;
 }
 
 header {
@@ -51,19 +52,20 @@ nav ul li a {
     
     box-shadow: 0 5px 10px rgba(51, 170, 160, 0.1);
     overflow-x: auto;
-    width: 60%;
-    font-size: 20px;
-    margin: 10px;
+    width: 80%;
+    font-size: 1.25em;
+    
+    margin: 0px;
     font-style: revert-layer;
     
     padding: 10px;
 }
 #ans1{
-    font-size: 25px;
+    font-size: 1.5em;
 }
 
 #ans2{
-    padding: 10px;
+    padding: 1.5px;
     margin: 10px;
     font-size: 25px;
     
@@ -77,4 +79,17 @@ footer {
     padding: 15px 0;
     
 }
+#pseudo{
+    background-color: #f3e2bb;
+    color: #c09022;
+    font-size: 1em;
+    box-sizing: border-box;
+    margin: 0px;
+    width: 81%;
+    padding: 5px;
+    box-shadow: 0 5px 10px rgba(51, 170, 160, 0.1);
+    
+
+}
+
 
