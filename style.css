@@ -93,19 +93,8 @@ footer {
 }
 
 
-@media (max-width: 600px) {
-    body {
-        font-size: 14px;
-    }
-    header {
-        flex-direction: column;
-        text-align: center;
-    }
-    nav ul li {
-        display: block;
-        margin: 10px 0;
-    }
-    #assemplecode, #pseudo {
-        width: 95%;
-    }
-}
+@media (max-width: 768px) {
+    #assemplecode, #ans1, #ans2 {
+        width: 90%;
+        font-size: 1.1em; 
+}}
